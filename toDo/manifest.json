@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Pop-Ups",
+    "version": "1.0",
+    "description": "Store Em Here",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "permissions": ["storage"],  
+    "background": {
+        "service_worker": "background.js"
+    }
+}

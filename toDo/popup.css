@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(40, 39, 39);
+    
+    font-family: Arial, sans-serif;
+    text-align: left;
+    width: 400px;
+    
+  }
+  .i{
+    margin: 400px;
+    width: 100%;
+   
+    
+    height: auto auto;
+  }
+  h1 {
+    -webkit-text-stroke: 2px #000; /* For Chrome, Safari, and newer browsers */
+            
+            -webkit-text-fill-color: #fff; /* For Chrome, Safari, and newer browsers */
+            
+    padding: 10px;
+    width: 60%;
+    color: #0078d4;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+  }
+  #todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    color:white;
+    width: 90%;
+    border-color: rgba(255, 255, 255, .1);
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.05);
+    padding: 10px;
+}
+input[type="text"]:focus {
+    outline: none;
+    /* Replace with the color you prefer */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.text-item{
+    width: 70%;
+}
+li {
+    padding: 10px;
+    margin-right: 40px;
+    color:white;
+    font-size: 20px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    
+}
+.add-button-class {
+    width: 30%;
+
+}
+button {
+    background-color: #00477d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.item-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.list-item-text {
+    /* Remove flex-grow property to prevent text from filling the whole box */
+    flex-grow: 0;
+    margin-right: 10px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide any overflowing text */
+    text-overflow: ellipsis; /* Display ellipsis (...) for truncated text */
+    max-width: 70%;
+}
+
+.delete-button {
+    /* Remove float property to prevent overlapping */
+    background-color: #00296c;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 80px;
+    padding: 5px 10px;
+    cursor: pointer;
+    /* Add margin-left to create space between the text and the button */
+    margin-left: 10px;
+}
+
+
+button:hover {
+    background-color: #1d4e87;
+}
+  
